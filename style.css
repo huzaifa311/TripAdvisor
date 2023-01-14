@@ -1,0 +1,228 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.navbar {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0px 1px 2px #ccc;
+    margin-bottom: 12px;
+    background-color: #fff;
+    position: fixed;
+    top: 0px;
+    width: 98%;
+}
+
+.navbar+ul {
+    position: relative;
+}
+
+li>a {
+    text-decoration: none;
+    color: black;
+}
+
+li:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    border: 2px dashed goldenrod;
+}
+
+li {
+    display: inline-block;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+i {
+    margin-right: 5px;
+    color: green;
+}
+
+.naiv {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0px 1px 2px #ccc;
+    margin-bottom: 12px;
+    background-color: #fff;
+    position: fixed;
+    top: 0px;
+    width: 98%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:link {
+    color: black;
+    background-color: #fff;
+}
+
+.search {
+    background-color: burlywood;
+    padding-top: 50px;
+    margin-top: 40px;
+    min-height: 300px;
+    max-height: 500px;
+    text-align: center;
+}
+
+.trip {
+    font-size: 50px;
+    text-align: center;
+    display: block;
+}
+
+.serch {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    text-align: center;
+    display: block;
+}
+
+input {
+    margin: 0 auto;
+    display: block;
+    height: 60px;
+    border-radius: 50px;
+    width: 400px;
+    padding-left: 10px;
+}
+
+
+
+.main_heading {
+    margin-top: 120px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.joesoft {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    font-size: 35px;
+}
+
+.aeiou {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.card_image {
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+}
+
+.box-child {
+    height: 190px;
+    width: 500px;
+    background-color: white;
+}
+
+.child1 {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.logo_img {
+    height: 60px;
+    width: 200px;
+}
+
+.tour_karachi {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.tour_karachi>h4 {
+    font-size: 25px;
+    margin: 0px;
+}
+
+.tour_karachi>p {
+    text-align: left;
+}
+
+.karachi_card {
+    height: 350px;
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin: 3px 5px;
+    position: relative;
+}
+
+.karachi_card_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.karachi_card:hover {
+    opacity: 0.8;
+}
+
+.karachi_card_img {
+    height: 230px;
+    width: 100%;
+}
+
+.karachi_card_heading,
+.karachi_card_desc {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 12px;
+}
+
+.karachi_card_heading {
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+.karachi_card_desc {
+    padding-top: 15px;
+}
+
+.karachi_heart {
+    background-color: #fff;
+    box-shadow: 1px 1px 1px #ccc;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 100;
+
+}
+
+.karachi_heart>i {
+    color: #000;
+    margin-right: 0px;
+    font-size: 25px;
+}
